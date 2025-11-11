@@ -1,0 +1,166 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cosmic Comics - Tu tienda online de cómics. Encuentra los mejores cómics y lanzamientos recientes.">
+    <link rel="canonical" href="https://cosmiccomics.com">
+    <meta property="og:title" content="Cosmic Comics">
+    <meta property="og:description" content="Descubre los cómics más emocionantes y nuevos lanzamientos.">
+    <meta property="og:image" content="https://example.com/image.jpg">
+    <meta property="og:url" content="https://cosmiccomics.com">
+    <title>Comics</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+
+  <link rel="stylesheet" href="styles.css" /></head>
+<body>
+    <header class="sticky top-0 bg-black p-4">
+        <nav class="flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Cosmic Comics</h1>
+            <a href="#comprar" class="cta-button">Comprar Ahora</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero text-center p-20">
+            <h2 class="text-5xl font-extrabold">¡Explora el Universo de los Cómics!</h2>
+            <p class="mt-4 text-lg">Nuevos lanzamientos y cómics destacados solo para ti.</p>
+            <a href="#comprar" class="cta-button mt-6">Suscríbete</a>
+        </section>
+
+        <section class="p-8">
+            <h3 class="text-3xl font-bold text-center">Cómics Destacados</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
+                <div class="card">
+                    <h4 class="font-semibold">Cómic A</h4>
+                    <ul class="mt-2">
+                        <li>✔️ Historia épica</li>
+                        <li>✔️ Personajes memorables</li>
+                        <li>✔️ Arte impresionante</li>
+                    </ul>
+                    <a href="#comprar" class="cta-button mt-4">Ver Más</a>
+                </div>
+                <div class="card">
+                    <h4 class="font-semibold">Cómic B</h4>
+                    <ul class="mt-2">
+                        <li>✔️ Aventura sin límites</li>
+                        <li>✔️ Giros inesperados</li>
+                        <li>✔️ Dibujo cautivador</li>
+                    </ul>
+                    <a href="#comprar" class="cta-button mt-4">Ver Más</a>
+                </div>
+                <div class="card">
+                    <h4 class="font-semibold">Cómic C</h4>
+                    <ul class="mt-2">
+                        <li>✔️ Trama envolvente</li>
+                        <li>✔️ Personajes únicos</li>
+                        <li>✔️ Estilo visual atractivo</li>
+                    </ul>
+                    <a href="#comprar" class="cta-button mt-4">Ver Más</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="p-8">
+            <h3 class="text-3xl font-bold text-center">Beneficios de Comprar con Nosotros</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
+                <div class="card">
+                    <div class="flex items-center">
+                        <span>📦</span>
+                        <h4 class="ml-2 font-semibold">Envío Rápido</h4>
+                    </div>
+                    <p>Recibe tus cómics en la puerta de tu casa rápidamente.</p>
+                </div>
+                <div class="card">
+                    <div class="flex items-center">
+                        <span>💳</span>
+                        <h4 class="ml-2 font-semibold">Pagos Seguros</h4>
+                    </div>
+                    <p>Tu información está protegida con nosotros.</p>
+                </div>
+                <div class="card">
+                    <div class="flex items-center">
+                        <span>🛡️</span>
+                        <h4 class="ml-2 font-semibold">Satisfacción Garantizada</h4>
+                    </div>
+                    <p>Si no estás satisfecho, te devolvemos tu dinero.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="p-8">
+            <h3 class="text-3xl font-bold text-center">Clientes Satisfechos</h3>
+            <div class="flex justify-center mt-6">
+                <span>👤 Cliente 1</span>
+                <span class="mx-4">👤 Cliente 2</span>
+                <span>👤 Cliente 3</span>
+            </div>
+        </section>
+
+        <section class="p-8" id="comprar">
+            <h3 class="text-3xl font-bold text-center">Contáctanos</h3>
+            <form class="mt-6">
+                <label for="name" class="block">Nombre:</label>
+                <input type="text" id="name" name="name" class="w-full p-2 mb-4 rounded" required>
+                
+                <label for="email" class="block">Email:</label>
+                <input type="email" id="email" name="email" class="w-full p-2 mb-4 rounded" required>
+                
+                <label for="phone" class="block">Teléfono:</label>
+                <input type="tel" id="phone" name="phone" class="w-full p-2 mb-4 rounded" required>
+                
+                <button type="submit" class="cta-button w-full">Enviar</button>
+            </form>
+        </section>
+
+        <section class="p-8">
+            <h3 class="text-3xl font-bold text-center">Preguntas Frecuentes</h3>
+            <details class="mt-4">
+                <summary class="cursor-pointer">¿Hacen envíos internacionales?</summary>
+                <p>Sí, realizamos envíos a varios países.</p>
+            </details>
+            <details class="mt-4">
+                <summary class="cursor-pointer">¿Cuál es su política de devoluciones?</summary>
+                <p>Ofrecemos devoluciones dentro de los 30 días de la compra.</p>
+            </details>
+        </section>
+    </main>
+
+    <footer class="bg-black p-8 text-white">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+            <div>
+                <h4 class="font-bold">Cosmic Comics</h4>
+                <p>Tu tienda online de cómics favoritos.</p>
+            </div>
+            <div>
+                <h4 class="font-bold">Información</h4>
+                <ul>
+                    <li><a href="#" class="hover:underline">Sobre Nosotros</a></li>
+                    <li><a href="#" class="hover:underline">Política de Privacidad</a></li>
+                    <li><a href="#" class="hover:underline">Términos de Servicio</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold">Contacto</h4>
+                <p>Email: contacto@cosmiccomics.com</p>
+                <p>Teléfono: 123-456-7890</p>
+            </div>
+            <div>
+                <h4 class="font-bold">Redes Sociales</h4>
+                <div class="flex space-x-4">
+                    <a href="#" aria-label="Facebook">📘</a>
+                    <a href="#" aria-label="Twitter">🐦</a>
+                    <a href="#" aria-label="Instagram">📸</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+
+  <!-- Chatwoot -->
+  
+
+  <script src="main.js"></script>
+</body>
+</html>
