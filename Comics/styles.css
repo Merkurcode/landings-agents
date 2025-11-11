@@ -1,0 +1,28 @@
+body {
+            font-family: system-ui, sans-serif;
+            background-color: #111111;
+            color: #ffffff;
+        }
+        .hero {
+            background: linear-gradient(to right, #007BFF, #FFD500);
+        }
+        .card {
+            background-color: #1a1a1a;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+        .cta-button {
+            background-color: #FFD500;
+            color: #111111;
+            padding: 12px 24px;
+            border-radius: 8px;
+            transition: transform 0.2s;
+        }
+        .cta-button:hover {
+            transform: scale(1.05);
+        }
+        .divider {
+            background-color: #007BFF;
+            height: 2px;
+        }
