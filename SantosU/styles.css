@@ -1,0 +1,13 @@
+:root {
+            --primary-color: #1D4ED8; /* Blue-600 */
+            --secondary-color: #9333EA; /* Purple-600 */
+            --accent-color: #F59E0B; /* Amber-500 */
+        }
+        .bg-gradient {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+        }
+        .text-gradient {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
