@@ -1,7 +1,14 @@
 :root {
-            --primary-color: #0D9488;
-            --accent-color: #F97316;
+            --primary-color: #1a202c;
+            --secondary-color: #2d3748;
+            --accent-color: #38b2ac;
+        }
+        body {
+            font-family: ui-sans-serif, system-ui, -apple-system;
         }
         .gradient-bg {
-            background: linear-gradient(135deg, #0D9488 0%, #0F766E 100%);
+            background: linear-gradient(90deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+        }
+        .hover-transition {
+            transition: all 0.3s ease-in-out;
         }
