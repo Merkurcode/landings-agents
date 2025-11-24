@@ -1,0 +1,7 @@
+:root {
+            --primary-color: #0D9488;
+            --accent-color: #F97316;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #0D9488 0%, #0F766E 100%);
+        }
