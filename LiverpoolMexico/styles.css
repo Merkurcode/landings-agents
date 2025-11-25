@@ -1,0 +1,11 @@
+:root {
+    --primary-color: #E60026;
+    --secondary-color: #1A1A1A;
+    --accent-color: #FFBF00;
+  }
+  body {
+    font-family: ui-sans-serif, system-ui, -apple-system;
+  }
+  .gradient-bg {
+    background: linear-gradient(90deg, var(--primary-color) 0%, var(--accent-color) 100%);
+  }
