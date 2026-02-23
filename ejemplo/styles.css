@@ -1,0 +1,19 @@
+:root {
+            --main-bg-color: #f9fafb;
+            --primary-color: #4f46e5;
+            --accent-color: #d97706;
+            --text-color: #1f2937;
+        }
+
+        body {
+            background-color: var(--main-bg-color);
+            color: var(--text-color);
+        }
+
+        .gradient-bg {
+            background: linear-gradient(90deg, var(--primary-color) 0%, var(--accent-color) 100%);
+        }
+
+        .smooth-scroll {
+            scroll-behavior: smooth;
+        }
