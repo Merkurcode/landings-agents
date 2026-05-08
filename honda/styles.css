@@ -1,0 +1,26 @@
+:root {
+            --primary-color: #1e3a8a; /* Blue-800 */
+            --accent-color: #34d399; /* Emerald-400 */
+            --bg-dark: #1a202c; /* Gray-900 */
+            --bg-light: #f9fafb; /* Gray-50 */
+        }
+        body {
+            background-color: var(--bg-light);
+            color: var(--bg-dark);
+            font-family: ui-sans-serif, system-ui, -apple-system;
+        }
+        .smooth-scroll {
+            scroll-behavior: smooth;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+        }
+        .cta-button {
+            background-color: var(--accent-color);
+            color: white;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .cta-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+        }
