@@ -1,0 +1,10 @@
+:root {
+            --primary-color: #ff0000;
+            --secondary-color: #000000;
+        }
+        .hero-bg {
+            background: linear-gradient(to right, #e3342f, #cc1f1a);
+        }
+        .transition-smooth {
+            transition: all 0.3s ease-in-out;
+        }
